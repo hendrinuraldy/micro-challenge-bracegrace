@@ -1,0 +1,113 @@
+/* Base styles */
+body {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .prompt, .results {
+    font-size: 20px;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: 0.3s ease-in-out all; /* Smooth hover effect */
+  }
+  
+  /* Results section */
+  .results {
+    background-color: #f5f5f5; /* Light background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Responsive design for buttons */
+  @media only screen and (max-width: 768px) {
+    .btn {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  }
+  
+  /* Button styles */
+  .btn-strongly-agree {
+    color: #38a3a5;
+  }
+  
+  .btn-strongly-agree.active,
+  .btn-strongly-agree:active,
+  .btn-strongly-agree:focus,
+  .btn-strongly-agree:active:focus,
+  .btn-strongly-agree.active:focus,
+  .btn-strongly-agree:hover {
+    background-color: #38a3a5;
+  }
+  
+
+  .btn-agree {
+    color: #38a3a5;
+  }
+  
+  .btn-agree.active,
+  .btn-agree:active,
+  .btn-agree:focus,
+  .btn-agree:active:focus,
+  .btn-agree.active:focus,
+  .btn-agree:hover {
+    background-color: rgba(56, 163, 165, 0.5);
+  }
+  
+  .btn-disagree {
+    color: #f56c6c;
+  }
+  
+  .btn-disagree.active,
+  .btn-disagree:active,
+  .btn-disagree:focus,
+  .btn-disagree:active:focus,
+  .btn-disagree.active:focus,
+  .btn-disagree:hover {
+    background-color: rgba(245, 108, 108, 0.5);
+  }
+  
+  .btn-strongly-disagree {
+    color: #f56c6c;
+  }
+  
+  .btn-strongly-disagree.active,
+  .btn-strongly-disagree:active,
+  .btn-strongly-disagree:focus,
+  .btn-strongly-disagree:active:focus,
+  .btn-strongly-disagree.active:focus,
+  .btn-strongly-disagree:hover {
+    background-color: #f56c6c;
+  }
+  
+  /* Hide and show classes */
+  .hide {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  /* Emotional intelligence section background color - before submit */
+  .emotional-intelligence {
+    background-color: #f0f8ff;  /* Light blue background for emotional intelligence section */
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+  }
+  
+  /* Bottom margin */
+  .bottom {
+    margin-bottom: 100px;
+  }
+  
