@@ -40,10 +40,10 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Template Stylesheet -->
-<link href="css/edukasiblog.css" rel="stylesheet">
+<link href="css/profil.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-white">
 <div class="container-xxl position-relative p-0">
    <!-- Spinner Start -->
    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -64,7 +64,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="welcome.php" class="nav-item nav-link active">Beranda</a>
+                        <a href="welcome.php" class="nav-item nav-link active">Home</a>
                         <a href="edukasiblog.html" class="nav-item nav-link">Edukasi</a>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -100,97 +100,78 @@
             </nav>
         </div>
 
-        <div class="container-xxl bg-info hero-header">
-                <div class="container">
-                    <div class="row g-5 text-center justify-content-center align-items-center">
-                        <div class="col-lg-6 text-center">
-                            <h1 class="text-white mb-4 animated zoomIn">Test Kecerdasan Emosional</h1>
-                        </div>
+        <div class="container-xxl bg-white hero-header">
+            <div class="container">
+                <div class="row g-5 text-center justify-content-center align-items-center">
+                    <div class="col-lg-6 text-center">
+                        <h1 class="text-dark mb-4 animated zoomIn">Halo, Aqil Mahesa Rafiq!</h1>
+                        <p class="lead text-dark mb-4 animated zoomIn">Informasi mengenai profil dan preferensi kamu di seluruh layanan Emotispace</p>
                     </div>
-                    
                 </div>
+                
             </div>
         </div>
+    </div>
 
 
         <!-- Navbar & Hero End -->
 
 
      
-<div class="container-xxl py-6 bg-white">
-  <div class="container-lg bg-warning">
-    <div class="row justify-content-center wow fadeInUp" data-wow-delay="0.1s">
-      <div class="col-md-7 order-md-2">
-        <button class="btn btn-primary" style="background-color: #7367f0; color: white; font-size: 18px; font-weight: bold; padding: 10px 20px; border-radius: 5px;">Testimonial</button>
-        <h2 class="mb-5">Tes Tingkat Keparahan Stres: Mengenal Diri Lebih Dalam</h2>
-        <p>Tes ini bertujuan untuk mengenali diri sendiri lebih dalam apakah kita memiliki sifat yang beda dari orang lain atau memiliki sifat yang sama dengan orang lain.</p>
-        <div class=" mb-5">
-            <a href="mulaites.html" target="_blank" class="btn btn-primary" style="background-color: #7367f0; color: white;">Test Your Emotional Intelligence</a>
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-md-3 ">
+                    <img src="img/team-1.jpg" class="card-img-top rounded-circle" style="width: 200px; height: 200px;">
+                </div>
+        
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-header">
+                            Perbarui Informasi Profil dan Preferensi Kamu
+                        </div>
+                        <div class="card-body">
+                            <form action="#">
+                                <div class="mb-3">
+                                    <label for="nama" class="form-label">Nama</label>
+                                    <input type="text" class="form-control" id="nama" value="Aqil Mahesa Rafiq">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Alamat Email</label>
+                                    <input type="email" class="form-control" id="email" value="aqilRafiq@gmail.com">
+                                </div>
+                                <button type="submit" class="btn btn-warning rounded-pill" style="padding: 10px 20px;">Simpan</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card mt-4">
+                        <div class="card-header">
+                            Perbarui Kata Sandi
+                        </div>
+                        <div class="card-body">
+                            <form action="#">
+                                <div class="mb-3">
+                                    <label for="kata_sandi_saat_ini" class="form-label">Kata Sandi Saat Ini</label>
+                                    <input type="password" class="form-control" id="kata_sandi_saat_ini">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="kata_sandi_baru" class="form-label">Kata Sandi Baru</label>
+                                    <input type="password" class="form-control" id="kata_sandi_baru">
+                                </div>
+                                <button type="submit" class="btn btn-warning rounded-pill" style="padding: 10px 20px;">Simpan</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <div class="float-right">
+                            <button type="button" class="btn btn-danger rounded-pill" style="padding: 10px 20px;">Keluar</button>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <img src="img/Kecerdasan-Emosional.webp" alt="Testimonial Image" class="img-fluid rounded mx-auto d-block" style="margin-top: 50px; position: relative; left: 50%; transform: translateX(-50%);">
-    </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="container-xxl py-6 bg-white">
-  <div class="container bg-warning">
-    <div class="row align-items-center justify-content-center wow fadeInUp" data-wow-delay="0.1s">
-      <div class="col-md-5 order-md-2">
-        <img src="img/mengembangkan-kecerdasan-emosional-2.jpg" alt="Testimonial Image" class="img-fluid rounded mx-auto d-block">
-      </div>
-      <div class="col-md-7 order-md-1">
-        <div class="btn btn-primary" style="background-color: #7367f0; color: white; font-size: 18px; font-weight: bold; padding: 10px 20px; border-radius: 5px;">Testimonial</div>
-        <h2 class="mb-5">Tes Tingkat Keparahan Stres: Mengenal Diri Lebih Dalam</h2>
-        <p>Tes ini bertujuan untuk mengenali diri sendiri lebih dalam apakah kita memiliki sifat yang beda dari orang lain atau memiliki sifat yang sama dengan orang lain.</p>
-        <div class="mb-5">
-            <a href="mulaites.html" target="_blank" class="btn btn-primary" style="background-color: #7367f0; color: white;">Test Your Emotional Intelligence</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container-xxl py-6 bg-white">
-  <div class="container bg-warning">
-    <div class="row justify-content-center wow fadeInUp" data-wow-delay="0.1s">
-      <div class="col-md-7 order-md-2">
-        <button class="btn btn-primary" style="background-color: #7367f0; color: white; font-size: 18px; font-weight: bold; padding: 10px 20px; border-radius: 5px;">Testimonial</button>
-        <h2 class="mb-5">Tes Tingkat Keparahan Stres: Mengenal Diri Lebih Dalam</h2>
-        <p>Tes ini bertujuan untuk mengenali diri sendiri lebih dalam apakah kita memiliki sifat yang beda dari orang lain atau memiliki sifat yang sama dengan orang lain.</p>
-        <div class=" mb-5">
-            <a href="mulaites.html" target="_blank" class="btn btn-primary" style="background-color: #7367f0; color: white;">Test Your Emotional Intelligence</a>
-        </div>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <img src="img/Kecerdasan-Emosional.webp" alt="Testimonial Image" class="img-fluid rounded mx-auto d-block" style="margin-top: 50px; position: relative; left: 50%; transform: translateX(-50%);">
-    </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="container-xxl py-6 bg-white">
-  <div class="container bg-warning">
-    <div class="row align-items-center justify-content-center wow fadeInUp" data-wow-delay="0.1s">
-      <div class="col-md-7">
-        <button class="btn btn-primary" style="background-color: #7367f0; color: white; font-size: 18px; font-weight: bold; padding: 10px 20px; border-radius: 5px;">Testimonial</button>
-        <h2 class="mb-5">Tes Tingkat Keparahan Stres: Mengenal Diri Lebih Dalam</h2>
-        <p>Tes ini bertujuan untuk mengenali diri sendiri lebih dalam apakah kita memiliki sifat yang beda dari orang lain atau memiliki sifat yang sama dengan orang lain.</p>
-        <div class="mb-5">
-            <a href="mulaites.html" target="_blank" class="btn btn-primary" style="background-color: #7367f0; color: white;">Test Your Emotional Intelligence</a>
-        </div>
-      </div>
-      <div class="col-md-5">
-        <img src="img/mengembangkan-kecerdasan-emosional-2.jpg" alt="Testimonial Image" class="img-fluid rounded mx-auto d-block">
-      </div>
-    </div>
-  </div>
-</div>
-
+        
           
           
       
