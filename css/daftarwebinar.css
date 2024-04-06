@@ -218,14 +218,10 @@
 
 /*** Hero Header ***/
 .hero-header {
-    margin-bottom: 6rem;
-    padding: 12rem 0 9rem 0;
-    background-image: url(../img/mengembangkan-kecerdasan-emosional-2.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover; /* Menjadikan latar belakang mencakup seluruh area */
+    margin-bottom: 4rem;
+    padding: 8rem 0 4rem 0;
+    
 }
-
 .client-testimonial {
     background-color: #ffd700; /* Warna kuning */
     padding: 20px; /* Menambahkan padding agar konten tidak terlalu dekat dengan tepi card */
@@ -434,7 +430,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: var(--light);
     border: 1px solid rgba(256, 256, 256, .1);
     border-radius: 40px;
     transition: .3s;
@@ -557,3 +553,88 @@
     font-weight: 600;
     margin: 0;
 }
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-6 {
+    flex: 0 1 50%;
+    padding: 15px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-top: 0;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+ 
+  .small-image {
+    max-width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1; /* untuk memastikan gambar berada di atas konten */
+  }
+  .container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-4 {
+    flex: 0 1 33.33%;
+    padding: 15px;
+  }
+  
+  .card {
+    width: 100%;
+  }
+  
+  .card-img-3x4 {
+    width: 75%;
+    height: 50%;
+    object-fit: cover;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-top: 0;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
